@@ -1,0 +1,3 @@
+[submodule "Quade"]
+	path = Quade
+	url = https://github.com/a-slide/Quade.git
