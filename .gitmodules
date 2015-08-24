@@ -4,3 +4,6 @@
 [submodule "Sekator"]
 	path = Sekator
 	url = https://github.com/a-slide/Sekator.git
+[submodule "RefMasker"]
+	path = RefMasker
+	url = https://github.com/a-slide/RefMasker.git
