@@ -1,3 +1,6 @@
 [submodule "Quade"]
 	path = Quade
 	url = https://github.com/a-slide/Quade.git
+[submodule "Sekator"]
+	path = Sekator
+	url = https://github.com/a-slide/Sekator.git
