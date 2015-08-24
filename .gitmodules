@@ -7,3 +7,6 @@
 [submodule "RefMasker"]
 	path = RefMasker
 	url = https://github.com/a-slide/RefMasker.git
+[submodule "ContaVect"]
+	path = ContaVect
+	url = https://github.com/a-slide/ContaVect.git
