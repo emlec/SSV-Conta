@@ -11,7 +11,6 @@ The four scripts used are :
 * **RefMasker** : Hard mask homologies between fasta reference sequences identified by Blastn (python 2.7)
 * **ContaVect** : Quantify and characterize DNA contaminants
 
-## Dependencies 
 
 ## Get SSV-Seq 
 
@@ -20,12 +19,10 @@ The four scripts used are :
 git submodule add <Repository_name> 
 git submodule update --init --recursive 
 ```
-
 2. Make each script executable 
 ```bash
 sudo chmod u+x <name.py>
 ```
-
 3. Make a link to bin 
 
 ## Usage 
