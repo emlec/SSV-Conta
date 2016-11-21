@@ -59,5 +59,9 @@ Run ```ContaVect.py Conf.txt```
 
 In this version, the order of the "reference" sequences is not important. 
 
+## Authors and Contact
+
+    Adrien Leger aleg@ebi.ac.uk @a-slide
+    Emilie Lecomte emilie.lecomte@univ-nantes.fr @emlec
 
 
