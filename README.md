@@ -14,15 +14,12 @@ The four scripts used are :
 
 ## Get SSV-Seq 
 
-Clone each repository (Quade, Sekator, RefMasker, ContaVect) with --recursive option
+Clone the repository SSV-Seq
 ```bash
-git submodule add <Repository_name> 
-git submodule update --init --recursive 
+git clone --recurse-submodules URL
 ```
-Make each script executable 
-```bash
-sudo chmod u+x <name.py>
-```
+Detailed information concerning the installation of Quade, Sekator, RefMasker and ContaVect is available in each README.
+
 Make a link to bin 
 
 ## Usage 
