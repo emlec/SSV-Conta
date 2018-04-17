@@ -10,3 +10,6 @@
 [submodule "ContaVect"]
 	path = ContaVect
 	url = https://github.com/a-slide/ContaVect.git
+[submodule "fastq_control_sampler"]
+	path = fastq_control_sampler
+	url = https://github.com/a-slide/fastq_control_sampler.git
