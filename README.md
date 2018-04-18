@@ -1,29 +1,33 @@
-# SSV-Seq
+# SSV-Conta
 
 **Package containing all scripts needed to quantify and characterize DNA contaminants from gene therapy vector production after NGS sequencing.** 
 
 ## Principle
 
-The four scripts used are : 
+The five scripts used are : 
 
 * **Quade** : Fastq files demultiplexer, handling double indexing, molecular indexing and filtering based on index quality (python 2.7)
 * **Sekator** : Multithreaded quality and adapter trimmer for PAIRED fastq files (Python2.7/Cython/C)
+* **fastq_control_sampler** : Generate control FASTQ files (C)
 * **RefMasker** : Hard mask homologies between fasta reference sequences identified by Blastn (python 2.7)
-* **ContaVect** : Quantify and characterize DNA contaminants
+* **ContaVect** : Quantify and characterize DNA contaminants (python 2.7)
 
 
-## Get SSV-Seq 
 
-Clone the repository SSV-Seq
+## Get SSV-Conta
+
+Clone the repository SSV-Conta
 ```bash
 git clone --recurse-submodules URL
 ```
 Detailed information concerning the installation of Quade, Sekator, RefMasker and ContaVect is available in each README.
+For ContaVect, install a version of pysam < v0.13.0. 
 
 Make a link to bin 
 
 ## Usage 
 
+### Pre-processing of sequencing reads
 Input : chunks of non demultiplexed raw fastq files 
 
 * In the folder where fastq files will be created, create the template : ```Quade.py -i```
@@ -44,17 +48,16 @@ Be careful : If necessary create the library AdapterTrimmer.so required for the 
 
 Output : Fastq trimmed
 
-* In the folder references, create the template : ```RefMasker.py -i```.
-After filling, run RefMasker : ```RefMasker.py -c RefMasker_conf_file.txt```
+### Create the FASTQ files of the in silico control
 
-Be careful : If necessary install pyfasta package using ```sudo pip install pyfasta [--proxy name:port]
+* Run the program fastq_control_sampler
+
+### Mapping reads to reference sequences
 
 * In the folder analysis, copy and fill the template present directly in ContaVect.
-There are no filtering, no trimming, and only one references indexing (for the first sample)
 
 Run ```ContaVect.py Conf.txt```
 
-In this version, the order of the "reference" sequences is not important. 
 
 ## Authors and Contact
 
