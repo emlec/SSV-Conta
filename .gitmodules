@@ -13,3 +13,9 @@
 [submodule "fastq_control_sampler"]
 	path = fastq_control_sampler
 	url = https://github.com/a-slide/fastq_control_sampler.git
+[submodule "NTContent"]
+	path = NTContent
+	url = https://github.com/emlec/NTContent.git
+[submodule "SSV-Coverage"]
+	path = SSV-Coverage
+	url = https://github.com/emlec/SSV-Coverage.git
