@@ -1,18 +1,18 @@
 [submodule "Quade"]
 	path = Quade
-	url = https://github.com/a-slide/Quade.git
+	url = https://github.com/emlec/Quade.git
 [submodule "Sekator"]
 	path = Sekator
-	url = https://github.com/a-slide/Sekator.git
+	url = https://github.com/emlec/Sekator.git
 [submodule "RefMasker"]
 	path = RefMasker
-	url = https://github.com/a-slide/RefMasker.git
+	url = https://github.com/emlec/RefMasker.git
 [submodule "ContaVect"]
 	path = ContaVect
 	url = https://github.com/emlec/ContaVect.git
 [submodule "fastq_control_sampler"]
 	path = fastq_control_sampler
-	url = https://github.com/a-slide/fastq_control_sampler.git
+	url = https://github.com/emlec/fastq_control_sampler.git
 [submodule "NTContent"]
 	path = NTContent
 	url = https://github.com/emlec/NTContent.git
